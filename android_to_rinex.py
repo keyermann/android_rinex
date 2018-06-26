@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 """
 Tool to convert from logfile of GPS-measurements to RINEX format
 """
@@ -29,6 +29,7 @@ CONSTELLATION_SBAS = 2
 CONSTELLATION_GLONASS = 3
 CONSTELLATION_QZSS = 4
 CONSTELLATION_BEIDOU = 5
+CONSTELLATION_GALILEO = 6
 CONSTELLATION_UNKNOWN = 0
 
 def get_raw_field_descr_from_header(file_handler):
